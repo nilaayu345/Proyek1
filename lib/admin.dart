@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:login_siswa/main.dart';
+// import 'package:flutter/material.dart';
+// import 'package:login_siswa/main.dart';
 
 import 'main.dart';
 
@@ -22,7 +22,7 @@ class _AdminState extends State<Admin> {
             children: <Widget>[
               Text("Admin"),
               SizedBox(height: 20,),
-              Text("Welcome : ${widget.username}"),
+              Text("Selamat Datang : ${widget.username}"),
               SizedBox(height: 20,),
               RaisedButton(
                 onPressed: (){
