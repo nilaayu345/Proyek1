@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Login Flutter",
+      title: "Menu Login Flutter",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.black,
